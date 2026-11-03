@@ -1,0 +1,32 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'D:\FAP201(bailam)\LAB1\src\top.vhd'
+Analyzing entity 'lab01'("D:\FAP201(bailam)\LAB1\src\top.vhd":5)
+Analyzing architecture 'rtl'("D:\FAP201(bailam)\LAB1\src\top.vhd":16)
+Processing 'lab01(rtl)'("D:\FAP201(bailam)\LAB1\src\top.vhd":5)
+NOTE  (EX0101) : Current top module is "lab01"
+WARN  (EX0211) : The output port "o_led1" of module "lab01" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\FAP201(bailam)\LAB1\src\top.vhd":10)
+WARN  (EX0211) : The output port "o_led2" of module "lab01" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\FAP201(bailam)\LAB1\src\top.vhd":11)
+WARN  (EX0211) : The output port "o_led3" of module "lab01" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\FAP201(bailam)\LAB1\src\top.vhd":12)
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input i_sw1 is unused("D:\FAP201(bailam)\LAB1\src\top.vhd":7)
+WARN  (CV0016) : Input i_sw2 is unused("D:\FAP201(bailam)\LAB1\src\top.vhd":8)
+WARN  (CV0016) : Input i_sw3 is unused("D:\FAP201(bailam)\LAB1\src\top.vhd":9)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\FAP201(bailam)\LAB1\impl\gwsynthesis\Fap201-Lab01.vg" completed
+[100%] Generate report file "D:\FAP201(bailam)\LAB1\impl\gwsynthesis\Fap201-Lab01_syn.rpt.html" completed
+GowinSynthesis finish

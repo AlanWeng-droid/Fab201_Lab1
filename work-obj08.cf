@@ -1,0 +1,7 @@
+v 4
+file . "sim/tb.vhd" "856995ffd79e4ccf7137ab77546ab25a7c46b076" "20261027030250.541":
+  entity lab01_tb at 1( 0) + 0 on 13;
+  architecture sim of lab01_tb at 15( 132) + 0 on 14;
+file . "src/top.vhd" "afff1b172ff756999f9f17982607c014bad0b63d" "20261027030250.540":
+  entity lab01 at 1( 0) + 0 on 11;
+  architecture rtl of lab01 at 16( 329) + 0 on 12;

@@ -1,0 +1,7 @@
+v 4
+file . ".\sim\lab01_tb.vhd" "0aebfb54f4b01c6f8b4c1863dcc2bc02b04d5a8b" "20261024082913.204":
+  entity lab01_tb at 1( 0) + 0 on 13;
+  architecture sim of lab01_tb at 8( 118) + 0 on 14;
+file . ".\src\lab01.vhd" "afff1b172ff756999f9f17982607c014bad0b63d" "20261024082912.986":
+  entity lab01 at 1( 0) + 0 on 11;
+  architecture rtl of lab01 at 16( 329) + 0 on 12;
